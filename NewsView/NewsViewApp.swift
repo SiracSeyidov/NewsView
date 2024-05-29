@@ -6,12 +6,16 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct NewsViewApp: App {
+    @AppStorage("darkMode") private var darkMode: Bool = true
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .colorScheme(.dark)
         }
+        .modelContainer(for: SwiftDataModel.self)
     }
 }

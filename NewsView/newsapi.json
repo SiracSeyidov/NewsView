@@ -1,37 +1,47 @@
 [
   {
+    "id": 1,
+    "author": "John Doe",
     "title": "James Webb Space Telescope Captures Stunning Images of the Carina Nebula",
     "description": "The James Webb Space Telescope has captured stunning new images of the Carina Nebula, one of the largest and brightest nebulae in the sky. The images reveal previously unseen details of the nebula's towering pillars of gas and dust, as well as the stars that are forming within it.",
     "date": "2023-10-26",
     "url": "https://www.nasa.gov/image-feature/webb-captures-stunning-images-of-carina-nebula",
-    "image": "https://www.nasa.gov/sites/default/files/thumbnails/image/pia24739-thumbnail.jpg"
+    "image": "https://d3i6fh83elv35t.cloudfront.net/static/2022/07/spacealternative-1024x593.jpg"
   },
   {
+    "id": 2,
+    "author": "Jane Doe",
     "title": "New Study Finds That Climate Change Is Making Hurricanes More Intense",
     "description": "A new study has found that climate change is making hurricanes more intense. The study found that hurricanes are now producing more rainfall and have stronger winds than they did in the past.",
     "date": "2023-10-25",
     "url": "https://www.noaa.gov/news/new-study-finds-climate-change-making-hurricanes-more-intense",
-    "image": "https://www.noaa.gov/sites/default/files/styles/large/public/images/2023-10-25/2023_Atlantic_Hurricane_Season_Outlook_Final.png"
+    "image": "https://static01.nyt.com/images/2020/05/18/science/18CLI-HURRICANES/merlin_143651790_5feec6b1-4c48-45b3-96ad-8cf30513ad9f-superJumbo.jpg"
   },
   {
+    "id": 3,
+    "author": "Peter Smith",
     "title": "Scientists Develop New Drug That Could Slow the Progression of Alzheimer's Disease",
     "description": "Scientists have developed a new drug that could slow the progression of Alzheimer's disease. The drug is still in the early stages of development, but it has shown promising results in animal studies.",
     "date": "2023-10-24",
     "url": "https://www.alzheimers.org/research/science-news/new-drug-could-slow-progression-alzheimers",
-    "image": "https://www.alzheimers.org/sites/default/files/styles/large/public/images/2023-10-24/new-drug-could-slow-progression-alzheimers-disease.jpg"
+    "image": "https://www.sciencenews.org/wp-content/uploads/2023/07/071423_ls_new-alz-drugs_feat.jpg"
   },
   {
+    "id": 4,
+    "author": "Susan Jones",
     "title": "NASA's Artemis I Mission Launches Successfully, Paving the Way for Humans to Return to the Moon",
     "description": "NASA's Artemis I mission launched successfully on November 16, 2022, paving the way for humans to return to the Moon. The mission is the first step in NASA's Artemis program, which aims to establish a sustainable presence on the Moon and eventually send humans to Mars.",
     "date": "2022-11-16",
     "url": "https://www.nasa.gov/specials/artemis-1/",
-    "image": "https://www.nasa.gov/sites/default/files/thumbnails/image/nasa_sls_artemis_i_launch.jpg"
+    "image": "https://www.spaceflightinsider.com/wp-content/uploads/2022/11/artemis-1-theresa-cross-theresacross_-26627.jpeg"
   },
   {
+    "id": 5,
+    "author": "David Miller",
     "title": "Webb Space Telescope Detects First Confirmed Exoplanet",
     "description": "The James Webb Space Telescope has detected its first confirmed exoplanet. The exoplanet, named LHS 475 b, is about the same size as Earth and orbits a star that is about 40 light-years from Earth. The discovery is a major milestone for the Webb Space Telescope and opens up new possibilities for studying exoplanets.",
     "date": "2023-10-21",
     "url": "https://www.nasa.gov/mission_pages/webb/news/nasa-webb-detects-first-confirmed-exoplanet",
-    "image": "https://www.nasa.gov/sites/default/files/thumbnails/image/nasa_webb_detects_first_confirmed_exoplanet.jpg"
+    "image": "https://exoplanets.nasa.gov/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbTRLIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--3f8fab6a311e66f8b4d6b44694485955ab3e8c33/lhs475b_1600.jpg"
   }
 ]

@@ -6,16 +6,16 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct ContentView: View {
+    @Query var list: [SwiftDataModel]
+    @State var selection = 1
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack{
+            CustomTabView()
         }
-        .padding()
     }
 }
 

@@ -6,3 +6,15 @@
 //
 
 import Foundation
+import UIKit
+import SwiftUI
+import SwiftData
+
+@Model
+class SwiftDataModel {
+    var id: Int
+    
+    init(id: Int = 0) {
+        self.id = id
+    }
+}

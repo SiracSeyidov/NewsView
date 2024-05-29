@@ -8,8 +8,33 @@
 import SwiftUI
 
 struct ExploreView: View {
+    @StateObject var api = NewsAPI()
+    @State private var searchText = ""
+    @State private var newsList: [NewsModel] = []
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            ScrollView(.vertical){
+                VStack(spacing: 25){
+                    ForEach(filter(), id: \.self){ n in
+                        ExploreViewModel(news: n)
+                    }
+                }
+            }
+        }
+        .searchable(text: $searchText, prompt: "Search")
+        .onAppear{
+            api.get()
+        }
+        .frame(width: UIScreen.main.bounds.width)
+        .background(Colors().bg)
+    }
+    
+    private func filter() -> [NewsModel]{
+        guard !searchText.isEmpty else { return api.list }
+        return api.list.filter{
+            $0.title.localizedCaseInsensitiveContains(searchText)
+        }
     }
 }
 

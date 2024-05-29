@@ -8,6 +8,8 @@
 import Foundation
 
 struct NewsModel: Codable, Hashable{
+    var id: Int
+    var author: String
     var title: String
     var description: String
     var date: String

@@ -6,3 +6,9 @@
 //
 
 import Foundation
+import SwiftUI
+
+class Dimens{
+    let w = UIScreen.main.bounds.width
+    let h = UIScreen.main.bounds.height
+}
